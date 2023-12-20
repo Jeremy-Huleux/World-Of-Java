@@ -1,2 +1,4 @@
-package org.example.Factory;public class EquipeFactory {
+package org.example.Factory;
+
+public class EquipeFactory {
 }
