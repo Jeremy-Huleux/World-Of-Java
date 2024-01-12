@@ -11,17 +11,21 @@ public class Horde extends Personnage{
         super(nom, pointsDeVie, arme);
     }
 
+    public boolean isA2ouH2() {
+        return false;
+    }
     /**
      * Methode attaque qui permettras de supprimer
      * des points de vie a l'adversaire
      *
-     * @param arme
+     * @param adversaire
      */
+    /*
     @Override
-    public int attaque(Arme arme) {
-        return super.attaque(arme);
+    public int attaque(Personnage adversaire) {
+        return super.attaque(adversaire);
     }
-
+*/
     /**
      * Methode recevoirDgt qui permettras de supprimer
      * directement les points de vie du personnage
@@ -29,9 +33,10 @@ public class Horde extends Personnage{
      *
      * @param dgt
      */
+    /*
     @Override
     public int recevoirDgt(int dgt) {
         return super.recevoirDgt(dgt);
-    }
+    }*/
 
 }
